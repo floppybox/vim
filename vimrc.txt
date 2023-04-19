@@ -13,7 +13,7 @@ set autoindent
 set expandtab
 set smartindent
 
-" aktuell unklar, was die beiden folgenden Zeilen machen, deshalb auskommentiert
+" Kommt noch
 " autocmd FileType python map <buffer> <space> :w<CR>:exec '!python3' shellescape (@%, 1) <CR>
 " autocmd FileType python imap <buffer> <space> <esc>:w<CR>:exec '!python3' shellescape (@%, 1)<CR>
 
