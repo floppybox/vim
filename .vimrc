@@ -13,6 +13,10 @@ set autoindent
 set expandtab
 set smartindent
 
+" Rechtschreibprüfung starten und auf Deutsch einstellen
+set spell
+set spelllang=de_de
+
 " Kommt noch
 " autocmd FileType python map <buffer> <space> :w<CR>:exec '!python3' shellescape (@%, 1) <CR>
 " autocmd FileType python imap <buffer> <space> <esc>:w<CR>:exec '!python3' shellescape (@%, 1)<CR>
